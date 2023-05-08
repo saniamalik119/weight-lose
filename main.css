@@ -1,0 +1,380 @@
+.parent {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/mian3.png);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.sub {
+  height: 75px;
+  background-color: #D72323;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 160px 0 30px;
+  align-items: center;
+}
+.nav h2 {
+  color: white;
+  margin-top: 15px;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.nav button {
+  border-style: none;
+  border: 4px solid #D72323;
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  color: #D72323;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 5px;
+  box-shadow: rgba(241, 241, 243, 0.986) 0px 6px 12px -2px, rgba(250, 244, 244, 0.904) 0px 3px 7px -3px;
+}
+.nav .icon {
+  position: relative;
+  top: 4px;
+}
+
+.content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4rem;
+  width: 600px;
+  color: white;
+  margin: 40px 0 0 70px;
+  line-height: 1.4;
+}
+.content span {
+  color: #D72323;
+}
+.content ul {
+  margin-top: 50px;
+}
+.content li {
+  color: black;
+  list-style: none;
+  background-color: white;
+  margin: 30px 0 0 40px;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 350px;
+}
+.content li ion-icon {
+  position: relative;
+  top: 3px;
+  size: 20px;
+}
+.content .butt {
+  border-style: none;
+  border: 4px solid white;
+  background-color: #D72323;
+  padding: 8px 25px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 30px 0 0 60px;
+  box-shadow: rgba(241, 241, 243, 0.986) 0px 6px 12px -2px, rgba(250, 244, 244, 0.904) 0px 3px 7px -3px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: relative;
+  bottom: 20px;
+}
+
+.hero {
+  margin-top: 20%;
+  padding: 20px 0 0 130px;
+}
+.hero .arran {
+  width: 400px;
+  height: 350px;
+  border-radius: 6px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.hero .arran .doc {
+  height: 290px;
+  width: 400px;
+  background-image: url(./images/2.png);
+  background-size: cover;
+}
+.hero .arran p {
+  font-size: 1.3rem;
+  width: 300px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.right {
+  width: 810px;
+  padding-left: 10px;
+}
+.right h2 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.right h2 span {
+  color: #D72323;
+}
+.right p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.right p span {
+  font-weight: 700;
+  position: relative;
+  top: 10px;
+}
+.right p span a {
+  color: #D72323;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  background-color: #D72323;
+  margin: auto;
+  margin-top: 6%;
+  color: white;
+}
+.line p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-top: 6px;
+}
+
+.content2 {
+  margin-top: 3%;
+}
+.content2 .R {
+  padding: 2% 0 0 10%;
+}
+.content2 .L {
+  padding-left: 9%;
+}
+.content2 .L p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.content2 .L li {
+  list-style: none;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  position: relative;
+  top: 20px;
+  right: 28px;
+  text-transform: capitalize;
+}
+.content2 .L li ion-icon {
+  color: #D72323;
+}
+
+.icon {
+  position: relative;
+  top: 4px;
+}
+
+.line2 {
+  border-radius: 50px;
+}
+
+.testimonial {
+  margin-top: 5%;
+}
+
+.slider {
+  width: 1500px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: #fff;
+  background-color: #333;
+  transition: transform 1s ease-in-out;
+}
+
+.test {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.test h1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+}
+.test button {
+  border-style: none;
+  border: 4px solid white;
+  background-color: #D72323;
+  padding: 8px 25px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 700px;
+  box-shadow: rgba(241, 241, 243, 0.986) 0px 6px 12px -2px, rgba(250, 244, 244, 0.904) 0px 3px 7px -3px;
+}
+
+.cards {
+  justify-content: center;
+  margin: auto;
+  margin: 2%;
+  gap: 3%;
+  position: relative;
+  top: 8%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 600px;
+  color: white;
+  background-color: black;
+  border: 4px solid white;
+  padding: 10px;
+  margin-bottom: 2%;
+}
+.card .avator {
+  width: 200px;
+  height: 65px;
+  margin: 10px;
+  border-radius: 50%;
+  background-image: url(./images/16.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card #two {
+  background-image: url(./images/19.jpg);
+  width: 300px;
+}
+.card #third {
+  background-image: url(./images/15.jpg);
+  width: 150px;
+}
+.card #forth {
+  background-image: url(./images/17.jpg);
+  width: 150px;
+}
+.card p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.card h3 {
+  font-style: italic;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 30%;
+  gap: 20px;
+}
+.nav li {
+  list-style: none;
+  margin-top: 20%;
+}
+.nav a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+.panel {
+  scale: 0.7;
+}
+
+@media only screen and (max-width: 480px) {
+  .nav h2 {
+    font-size: 1rem;
+  }
+  .nav button {
+    display: none;
+  }
+  .content h1 {
+    font-size: 2rem;
+    margin: 10px 0 0 40px;
+    width: 300px;
+  }
+  .content li {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .content .butt {
+    margin: 10px 0 30px 30px;
+  }
+  .image img {
+    width: 350px;
+    margin-top: 60px;
+  }
+  .hero {
+    margin: 0;
+    padding: 0;
+  }
+  .hero .arran {
+    display: none;
+  }
+  .line p {
+    font-size: 1.2rem;
+  }
+  .content2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content2 .L p {
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=main.css.map */
